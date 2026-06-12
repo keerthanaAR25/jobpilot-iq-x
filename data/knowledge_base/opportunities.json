@@ -1,0 +1,183 @@
+{
+  "certifications": [
+    {
+      "id": "aws_solutions_architect",
+      "name": "AWS Solutions Architect Associate",
+      "provider": "Amazon",
+      "level": "Associate",
+      "duration_weeks": 8,
+      "cost": 150,
+      "difficulty": "Intermediate",
+      "relevance_score": 95,
+      "description": "Design scalable, highly available AWS architectures",
+      "relevant_roles": ["Cloud Engineer", "Software Engineer", "DevOps Engineer"],
+      "exam_format": "130 questions, 130 minutes",
+      "resources": [
+        "AWS Training",
+        "A Cloud Guru",
+        "Udemy courses"
+      ]
+    },
+    {
+      "id": "google_cloud_professional",
+      "name": "Google Cloud Professional Cloud Architect",
+      "provider": "Google",
+      "level": "Professional",
+      "duration_weeks": 12,
+      "cost": 200,
+      "difficulty": "Advanced",
+      "relevance_score": 90,
+      "description": "Design and implement secure, scalable cloud solutions on GCP",
+      "relevant_roles": ["Cloud Engineer", "ML Engineer", "Data Engineer"],
+      "exam_format": "50 questions, 120 minutes",
+      "resources": [
+        "Google Cloud Training",
+        "Linux Academy",
+        "Coursera"
+      ]
+    },
+    {
+      "id": "azure_data_scientist",
+      "name": "Azure Data Scientist Associate",
+      "provider": "Microsoft",
+      "level": "Associate",
+      "duration_weeks": 10,
+      "cost": 165,
+      "difficulty": "Intermediate",
+      "relevance_score": 92,
+      "description": "Implement machine learning solutions using Azure ML",
+      "relevant_roles": ["Data Scientist", "ML Engineer", "AI Engineer"],
+      "exam_format": "40-60 questions, 120 minutes",
+      "resources": [
+        "Microsoft Learn",
+        "Pluralsight",
+        "Udemy"
+      ]
+    },
+    {
+      "id": "tensorflow_developer",
+      "name": "TensorFlow Developer Certificate",
+      "provider": "Google",
+      "level": "Associate",
+      "duration_weeks": 6,
+      "cost": 100,
+      "difficulty": "Intermediate",
+      "relevance_score": 88,
+      "description": "Build and train neural networks using TensorFlow",
+      "relevant_roles": ["AI Engineer", "ML Engineer", "Data Scientist"],
+      "exam_format": "Hands-on project",
+      "resources": [
+        "TensorFlow.org",
+        "Coursera Deep Learning Specialization"
+      ]
+    },
+    {
+      "id": "kubernetes_cka",
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "provider": "CNCF",
+      "level": "Professional",
+      "duration_weeks": 10,
+      "cost": 395,
+      "difficulty": "Advanced",
+      "relevance_score": 85,
+      "description": "Deploy, manage, and maintain Kubernetes clusters",
+      "relevant_roles": ["Cloud Engineer", "DevOps Engineer", "ML Engineer"],
+      "exam_format": "Hands-on practical exam, 120 minutes",
+      "resources": [
+        "Linux Foundation",
+        "KodeKloud",
+        "Udemy"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "portfolio_1",
+      "title": "End-to-End ML Pipeline",
+      "description": "Build a complete ML project from data collection to deployment",
+      "difficulty": "Intermediate",
+      "duration_weeks": 4,
+      "estimated_hours": 40,
+      "tech_stack": ["Python", "Scikit-learn", "Flask", "Docker"],
+      "relevant_roles": ["ML Engineer", "Data Scientist", "Software Engineer"],
+      "deliverables": [
+        "Trained model",
+        "API endpoint",
+        "Docker container",
+        "Documentation"
+      ],
+      "impact_score": 9,
+      "portfolio_value": "Very High"
+    },
+    {
+      "id": "portfolio_2",
+      "title": "Cloud-Native Web Application",
+      "description": "Deploy scalable microservices application on cloud",
+      "difficulty": "Intermediate",
+      "duration_weeks": 3,
+      "estimated_hours": 30,
+      "tech_stack": ["Kubernetes", "Docker", "AWS/GCP", "Node.js", "MongoDB"],
+      "relevant_roles": ["Cloud Engineer", "DevOps Engineer", "Software Engineer"],
+      "deliverables": [
+        "Microservices",
+        "CI/CD pipeline",
+        "Cloud deployment",
+        "Monitoring setup"
+      ],
+      "impact_score": 8,
+      "portfolio_value": "Very High"
+    },
+    {
+      "id": "portfolio_3",
+      "title": "Real-Time Data Analytics Dashboard",
+      "description": "Build interactive dashboards with real-time data",
+      "difficulty": "Intermediate",
+      "duration_weeks": 3,
+      "estimated_hours": 25,
+      "tech_stack": ["Python", "Plotly/Tableau", "SQL", "Streamlit"],
+      "relevant_roles": ["Data Analyst", "Data Scientist", "BI Engineer"],
+      "deliverables": [
+        "Interactive dashboards",
+        "Data pipelines",
+        "SQL queries",
+        "Insights report"
+      ],
+      "impact_score": 8,
+      "portfolio_value": "High"
+    }
+  ],
+  "internships": [
+    {
+      "id": "intern_1",
+      "title": "Data Science Internship",
+      "company": "Tech Startup",
+      "duration_months": 3,
+      "location": "Remote/On-site",
+      "difficulty": "Beginner-Intermediate",
+      "required_skills": ["Python", "SQL", "Basic ML"],
+      "learning_outcomes": [
+        "Real-world data analysis",
+        "Stakeholder communication",
+        "End-to-end project experience"
+      ],
+      "relevance_to_roles": ["Data Scientist", "ML Engineer"],
+      "value_score": 8
+    },
+    {
+      "id": "intern_2",
+      "title": "Cloud Engineering Internship",
+      "company": "Enterprise Cloud Provider",
+      "duration_months": 3,
+      "location": "Remote/On-site",
+      "difficulty": "Intermediate",
+      "required_skills": ["Linux", "Cloud basics", "Scripting"],
+      "learning_outcomes": [
+        "Cloud infrastructure",
+        "DevOps practices",
+        "Enterprise systems"
+      ],
+      "relevance_to_roles": ["Cloud Engineer", "DevOps Engineer"],
+      "value_score": 8
+    }
+  ]
+}

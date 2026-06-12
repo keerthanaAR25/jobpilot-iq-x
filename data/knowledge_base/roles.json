@@ -1,0 +1,284 @@
+{
+  "AI Engineer": {
+    "role_id": "ai_engineer",
+    "title": "AI Engineer",
+    "description": "Builds, trains, and deploys AI models for production systems",
+    "core_skills": [
+      "Python Programming",
+      "Deep Learning Frameworks (TensorFlow, PyTorch)",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "tools_required": [
+      "Python",
+      "TensorFlow or PyTorch",
+      "Jupyter Notebook",
+      "Git/GitHub",
+      "Docker",
+      "Kubernetes",
+      "Cloud Platforms (AWS/GCP/Azure)"
+    ],
+    "certifications": [
+      "Google AI/ML Engineer Professional",
+      "AWS Certified ML Specialty",
+      "Azure AI Engineer Associate",
+      "DeepLearning.AI Specializations"
+    ],
+    "typical_experience": "2-4 years",
+    "education": "Bachelor's in CS, Math, or related field",
+    "key_projects": [
+      "Build and deploy NLP models",
+      "Computer vision applications",
+      "Recommendation systems",
+      "Generative AI applications",
+      "MLOps pipelines"
+    ],
+    "salary_range": "100k-200k+ annually",
+    "growth_path": ["Senior AI Engineer", "ML Architect", "AI Tech Lead"],
+    "interview_focus": [
+      "ML algorithms and theory",
+      "Deep learning implementation",
+      "Production ML systems",
+      "Coding problems",
+      "System design for ML"
+    ]
+  },
+  "Data Scientist": {
+    "role_id": "data_scientist",
+    "title": "Data Scientist",
+    "description": "Analyzes data and builds predictive models to solve business problems",
+    "core_skills": [
+      "Python & R Programming",
+      "Statistical Analysis",
+      "Machine Learning",
+      "Data Visualization",
+      "SQL",
+      "Exploratory Data Analysis",
+      "Business Acumen"
+    ],
+    "tools_required": [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "R or Julia",
+      "SQL",
+      "Tableau or Power BI",
+      "Jupyter Notebook",
+      "Git",
+      "Cloud Platforms"
+    ],
+    "certifications": [
+      "Google Professional Data Scientist",
+      "Microsoft Azure Data Scientist",
+      "IBM Data Science Professional",
+      "DataCamp Certifications"
+    ],
+    "typical_experience": "2-3 years",
+    "education": "Bachelor's in CS, Statistics, Math, or Physics",
+    "key_projects": [
+      "Predictive modeling",
+      "Customer segmentation",
+      "A/B testing",
+      "Data-driven dashboards",
+      "Business intelligence projects"
+    ],
+    "salary_range": "90k-180k+ annually",
+    "growth_path": ["Senior Data Scientist", "Data Science Manager", "ML Engineer"],
+    "interview_focus": [
+      "Statistics and probability",
+      "SQL queries",
+      "Machine learning concepts",
+      "Python coding",
+      "Business case analysis"
+    ]
+  },
+  "ML Engineer": {
+    "role_id": "ml_engineer",
+    "title": "ML Engineer",
+    "description": "Develops, maintains, and improves ML systems and infrastructure",
+    "core_skills": [
+      "Python Programming",
+      "Machine Learning",
+      "System Design",
+      "Data Engineering",
+      "MLOps",
+      "Cloud Architecture",
+      "Big Data Technologies"
+    ],
+    "tools_required": [
+      "Python",
+      "Apache Spark",
+      "Kubernetes",
+      "MLflow or Kubeflow",
+      "Docker",
+      "SQL",
+      "TensorFlow/PyTorch",
+      "Cloud Platforms"
+    ],
+    "certifications": [
+      "AWS SageMaker Specialty",
+      "Google Cloud Professional ML",
+      "Azure ML Engineer Associate",
+      "Databricks Certified"
+    ],
+    "typical_experience": "3-5 years",
+    "education": "Bachelor's in CS/Engineering + ML experience",
+    "key_projects": [
+      "ML pipeline development",
+      "Model deployment and monitoring",
+      "Feature engineering at scale",
+      "MLOps infrastructure",
+      "Distributed training systems"
+    ],
+    "salary_range": "120k-220k+ annually",
+    "growth_path": ["Senior ML Engineer", "ML Architect", "Tech Lead"],
+    "interview_focus": [
+      "System design for ML",
+      "Data engineering",
+      "Distributed systems",
+      "MLOps practices",
+      "Coding and algorithms"
+    ]
+  },
+  "Data Analyst": {
+    "role_id": "data_analyst",
+    "title": "Data Analyst",
+    "description": "Analyzes data and creates insights to drive business decisions",
+    "core_skills": [
+      "SQL",
+      "Python",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Excel",
+      "Business Analysis",
+      "Communication"
+    ],
+    "tools_required": [
+      "SQL",
+      "Python or R",
+      "Tableau or Power BI or Looker",
+      "Excel",
+      "Google Analytics",
+      "Spreadsheets",
+      "Database tools"
+    ],
+    "certifications": [
+      "Google Data Analytics Professional",
+      "Microsoft Power BI Data Analyst",
+      "Tableau Desktop Specialist",
+      "IBM Data Analyst"
+    ],
+    "typical_experience": "1-3 years",
+    "education": "Bachelor's in any field + analytics bootcamp helpful",
+    "key_projects": [
+      "Dashboards and reports",
+      "Data cleaning and transformation",
+      "Business metrics tracking",
+      "Trend analysis",
+      "Data quality checks"
+    ],
+    "salary_range": "60k-120k+ annually",
+    "growth_path": ["Senior Data Analyst", "Analytics Manager", "Data Scientist"],
+    "interview_focus": [
+      "SQL queries",
+      "Excel skills",
+      "Data visualization",
+      "Business acumen",
+      "Communication skills"
+    ]
+  },
+  "Cloud Engineer": {
+    "role_id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "description": "Designs, builds, and manages cloud infrastructure and applications",
+    "core_skills": [
+      "Cloud Platforms (AWS/GCP/Azure)",
+      "Infrastructure as Code",
+      "Networking & Security",
+      "DevOps",
+      "Linux/Unix",
+      "Containerization",
+      "Scripting Languages"
+    ],
+    "tools_required": [
+      "AWS/GCP/Azure",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Ansible",
+      "Python or Bash",
+      "Git",
+      "Monitoring tools"
+    ],
+    "certifications": [
+      "AWS Solutions Architect Associate",
+      "Google Cloud Professional",
+      "Azure Administrator Associate",
+      "Kubernetes Administrator (CKA)"
+    ],
+    "typical_experience": "2-4 years",
+    "education": "Bachelor's in CS/IT or equivalent experience",
+    "key_projects": [
+      "Cloud infrastructure setup",
+      "CI/CD pipelines",
+      "Microservices deployment",
+      "Cloud security implementation",
+      "Cost optimization"
+    ],
+    "salary_range": "100k-190k+ annually",
+    "growth_path": ["Senior Cloud Engineer", "Cloud Architect", "DevOps Manager"],
+    "interview_focus": [
+      "Cloud architecture design",
+      "Security best practices",
+      "Networking concepts",
+      "Infrastructure as Code",
+      "Hands-on cloud labs"
+    ]
+  },
+  "Software Engineer": {
+    "role_id": "software_engineer",
+    "title": "Software Engineer",
+    "description": "Designs and develops software applications and systems",
+    "core_skills": [
+      "Data Structures & Algorithms",
+      "System Design",
+      "OOP Principles",
+      "Web Development",
+      "Database Design",
+      "API Development",
+      "Testing & Debugging"
+    ],
+    "tools_required": [
+      "Programming languages (Java, Python, C++, JavaScript)",
+      "Version Control (Git)",
+      "Testing Frameworks",
+      "Databases (SQL/NoSQL)",
+      "Web Frameworks",
+      "Development Tools"
+    ],
+    "certifications": [
+      "AWS Developer Associate",
+      "Google Cloud Associate Cloud Engineer",
+      "Oracle Java Certification",
+      "Microsoft Azure Developer"
+    ],
+    "typical_experience": "1-3 years",
+    "education": "Bachelor's in CS or related field",
+    "key_projects": [
+      "Full-stack applications",
+      "Microservices",
+      "API development",
+      "Database design",
+      "Software architecture"
+    ],
+    "salary_range": "80k-160k+ annually",
+    "growth_path": ["Senior Software Engineer", "Tech Lead", "Software Architect"],
+    "interview_focus": [
+      "Data structures and algorithms",
+      "System design",
+      "Coding problems",
+      "API design",
+      "Database concepts"
+    ]
+  }
+}

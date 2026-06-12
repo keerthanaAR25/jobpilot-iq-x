@@ -1,0 +1,13 @@
+streamlit
+plotly
+pypdf2
+pydantic
+python-dotenv
+requests
+openai
+sqlalchemy
+pandas
+numpy
+json5
+streamlit-extras
+typing-extensions

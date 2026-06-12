@@ -1,0 +1,216 @@
+{
+  "Microsoft": {
+    "name": "Microsoft",
+    "industry": "Cloud Computing & Software",
+    "popular_roles": ["Software Engineer", "Cloud Engineer", "AI Engineer", "Data Scientist"],
+    "hiring_process": [
+      "Online Assessment",
+      "Technical Interviews (2-3 rounds)",
+      "System Design Interview",
+      "HR Behavioral Interview"
+    ],
+    "key_competencies": [
+      "Problem Solving",
+      "Coding Proficiency",
+      "System Design",
+      "Communication",
+      "Collaboration",
+      "Cloud Architecture"
+    ],
+    "required_skills": ["C++", "Python", "Java", "C#", "Azure", "AWS"],
+    "preferred_certifications": ["Azure Solutions Architect", "Azure Administrator", "AWS Developer"],
+    "typical_salary_range": {
+      "entry_level": "80k-120k",
+      "mid_level": "150k-200k",
+      "senior": "200k-300k+"
+    },
+    "company_culture": "Innovation, Inclusivity, Growth Mindset",
+    "application_tips": [
+      "Highlight cloud projects",
+      "Demonstrate problem-solving skills",
+      "Show passion for learning"
+    ],
+    "interview_tips": [
+      "Practice LeetCode problems",
+      "Study system design",
+      "Prepare STAR method answers"
+    ]
+  },
+  "Google": {
+    "name": "Google",
+    "industry": "Search, Cloud & AI",
+    "popular_roles": ["Software Engineer", "Data Scientist", "AI Engineer", "Cloud Architect"],
+    "hiring_process": [
+      "Phone Screen",
+      "Technical Interview (1-2 rounds)",
+      "System Design Interview",
+      "Hiring Committee Review"
+    ],
+    "key_competencies": [
+      "Algorithm Mastery",
+      "System Design",
+      "Problem Solving",
+      "Communication",
+      "Coding Excellence"
+    ],
+    "required_skills": ["Python", "Java", "C++", "JavaScript", "SQL", "ML"],
+    "preferred_certifications": ["Google Cloud Professional", "TensorFlow Certificate"],
+    "typical_salary_range": {
+      "entry_level": "100k-150k",
+      "mid_level": "180k-240k",
+      "senior": "250k-400k+"
+    },
+    "company_culture": "Innovation, Data-Driven, Collaboration",
+    "application_tips": [
+      "Build impressive projects",
+      "Contribute to open source",
+      "Study Google's products"
+    ],
+    "interview_tips": [
+      "Master algorithms and data structures",
+      "Practice system design extensively",
+      "Show passion for problem-solving"
+    ]
+  },
+  "Amazon": {
+    "name": "Amazon",
+    "industry": "Cloud Computing & Retail",
+    "popular_roles": ["Software Engineer", "Cloud Engineer", "ML Engineer", "DevOps Engineer"],
+    "hiring_process": [
+      "Online Assessment",
+      "Phone Interview",
+      "Technical Interview (2 rounds)",
+      "Bar Raiser Interview"
+    ],
+    "key_competencies": [
+      "Ownership",
+      "Customer Focus",
+      "Technical Excellence",
+      "Bias for Action",
+      "Learn and Develop"
+    ],
+    "required_skills": ["Java", "Python", "C++", "AWS", "SQL"],
+    "preferred_certifications": ["AWS Solutions Architect", "AWS Developer Associate"],
+    "typical_salary_range": {
+      "entry_level": "120k-180k",
+      "mid_level": "200k-280k",
+      "senior": "300k-500k+"
+    },
+    "company_culture": "Customer Obsession, Innovation, Operational Excellence",
+    "application_tips": [
+      "Study AWS services",
+      "Prepare STAR stories for leadership principles",
+      "Show ownership mindset"
+    ],
+    "interview_tips": [
+      "Focus on Amazon's 14 Leadership Principles",
+      "Practice coding on AWS",
+      "Prepare detailed project explanations"
+    ]
+  },
+  "TCS": {
+    "name": "Tata Consultancy Services (TCS)",
+    "industry": "IT Services & Consulting",
+    "popular_roles": ["Software Engineer", "Business Analyst", "Cloud Engineer", "Data Analyst"],
+    "hiring_process": [
+      "Written Test (Numerical, Logical, English)",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "key_competencies": [
+      "Technical Knowledge",
+      "Problem Solving",
+      "Communication",
+      "Team Collaboration",
+      "Adaptability"
+    ],
+    "required_skills": ["Java", "Python", "SQL", "Core Java", "Web Technologies"],
+    "preferred_certifications": ["Oracle Java", "Microsoft Azure", "AWS Associate"],
+    "typical_salary_range": {
+      "entry_level": "3.5-5 LPA",
+      "mid_level": "8-12 LPA",
+      "senior": "15-25 LPA"
+    },
+    "company_culture": "Diversity, Learning, Innovation",
+    "application_tips": [
+      "Good communication skills are crucial",
+      "Study fundamentals thoroughly",
+      "Show interest in consulting"
+    ],
+    "interview_tips": [
+      "Prepare well for aptitude test",
+      "Practice real-world problem scenarios",
+      "Emphasize teamwork"
+    ]
+  },
+  "Infosys": {
+    "name": "Infosys",
+    "industry": "IT Services & Consulting",
+    "popular_roles": ["Software Engineer", "Systems Engineer", "Business Analyst", "Cloud Specialist"],
+    "hiring_process": [
+      "Aptitude Test",
+      "Technical Interview",
+      "HR Discussion"
+    ],
+    "key_competencies": [
+      "Technical Skills",
+      "Problem Solving",
+      "Communication",
+      "Flexibility",
+      "Customer Focus"
+    ],
+    "required_skills": ["Java", "Python", "SQL", "Cloud Platforms"],
+    "preferred_certifications": ["Java Certification", "Cloud Certifications"],
+    "typical_salary_range": {
+      "entry_level": "3.2-4.5 LPA",
+      "mid_level": "7-10 LPA",
+      "senior": "12-20 LPA"
+    },
+    "company_culture": "Good People, Good Work, Good Growth",
+    "application_tips": [
+      "Strong fundamentals needed",
+      "Multiple project experience helps",
+      "English communication important"
+    ],
+    "interview_tips": [
+      "Clear your basics",
+      "Be confident but humble",
+      "Discuss project involvement"
+    ]
+  },
+  "Accenture": {
+    "name": "Accenture",
+    "industry": "IT Services & Consulting",
+    "popular_roles": ["Associate Software Engineer", "Business Analyst", "Cloud Engineer", "Data Analyst"],
+    "hiring_process": [
+      "Written Assessment",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "key_competencies": [
+      "Technical Acumen",
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Client Focus"
+    ],
+    "required_skills": ["Java", "Python", "SQL", "Basic Web Technologies"],
+    "preferred_certifications": ["Cloud Certifications", "Microsoft Certifications"],
+    "typical_salary_range": {
+      "entry_level": "3.5-4.5 LPA",
+      "mid_level": "6-9 LPA",
+      "senior": "10-18 LPA"
+    },
+    "company_culture": "Excellence, Client Success, People Development",
+    "application_tips": [
+      "Focus on practical skills",
+      "Show learning initiative",
+      "Client-centric mindset"
+    ],
+    "interview_tips": [
+      "Practice aptitude questions",
+      "Be clear with technical concepts",
+      "Discuss real projects"
+    ]
+  }
+}
