@@ -47,7 +47,12 @@ def render():
             with tabs[0]:
                 st.subheader("Personal Information")
                 personal_info = resume_data.get('personal_info', {})
-                
+
+                if personal_info.get('name'):
+                    st.markdown(f"### {personal_info['name']}")
+                if personal_info.get('title'):
+                    st.markdown(f"*{personal_info['title']}*")
+
                 col1, col2 = st.columns(2)
                 with col1:
                     if personal_info.get('email'):
@@ -69,23 +74,38 @@ def render():
             with tabs[1]:
                 st.subheader("Work Experience")
                 experience = resume_data.get('experience', [])
-                
+
                 if experience:
                     for i, exp in enumerate(experience, 1):
-                        st.markdown(f"**{i}. {exp.get('title', 'N/A')}**")
-                        if isinstance(exp, dict) and 'keyword' in exp:
-                            st.markdown(f"Category: {exp.get('keyword', 'N/A')}")
+                        title = exp.get('title', 'N/A')
+                        duration = exp.get('duration', '')
+                        header = f"**{i}. {title}**"
+                        if duration:
+                            header += f"  \n*{duration}*"
+                        st.markdown(header)
+                        if exp.get('company'):
+                            st.markdown(f"{exp['company']}")
+                        if exp.get('keyword'):
+                            st.caption(f"Category: {exp['keyword']}")
+                        if exp.get('description'):
+                            st.write(exp['description'])
+                        st.markdown("---")
                 else:
                     st.info("No work experience found")
             
             with tabs[2]:
                 st.subheader("Education")
                 education = resume_data.get('education', [])
-                
+
                 if education:
                     for i, edu in enumerate(education, 1):
-                        st.markdown(f"**{i}. {edu.get('degree', 'N/A')}**")
-                        st.text(edu.get('context', ''))
+                        line = f"**{i}. {edu.get('degree', 'N/A')}**"
+                        if edu.get('year'):
+                            line += f"  \n*{edu['year']}*"
+                        st.markdown(line)
+                        if edu.get('institution'):
+                            st.markdown(edu['institution'])
+                        st.markdown("---")
                 else:
                     st.info("No education details found")
             
@@ -107,10 +127,17 @@ def render():
             with tabs[4]:
                 st.subheader("Projects & Portfolio")
                 projects = resume_data.get('projects', [])
-                
+
                 if projects:
                     for i, proj in enumerate(projects, 1):
                         st.markdown(f"**{i}. {proj.get('title', 'Project')}**")
+                        if proj.get('subtitle'):
+                            st.markdown(f"*{proj['subtitle']}*")
+                        if proj.get('tech_stack'):
+                            st.markdown(f"**Tech Stack:** {proj['tech_stack']}")
+                        if proj.get('description'):
+                            st.write(proj['description'])
+                        st.markdown("---")
                     st.markdown(f"\n**Total Projects:** {len(projects)}")
                 else:
                     st.info("No projects found. Consider adding projects to your resume!")

@@ -53,10 +53,41 @@ class CareerTwinAgent:
                 "experience_years": 3,
                 "github_repos": 5,
                 "certifications_count": 3
+            },
+            "Software Engineer": {
+                "skills": ["Python", "Java", "JavaScript", "TypeScript", "React", "Node.js", "PostgreSQL",
+                          "System Design", "Git", "Docker", "CI/CD", "REST APIs"],
+                "certifications": ["AWS Developer", "Google Cloud Developer", "Docker Certified"],
+                "projects": 5,
+                "experience_years": 3,
+                "github_repos": 8,
+                "contributions": 10,
+                "code_quality": "High"
+            },
+            "ML Engineer": {
+                "skills": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "MLOps", "AWS SageMaker",
+                          "Model Deployment", "Data Engineering", "SQL", "Spark", "Kubernetes"],
+                "certifications": ["AWS ML Specialty", "TensorFlow Developer", "Google Cloud ML Engineer"],
+                "projects": 4,
+                "experience_years": 3,
+                "github_repos": 6,
+                "publications": 1,
+                "conference_talks": 1
+            },
+            "Data Analyst": {
+                "skills": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Statistics",
+                          "Data Visualization", "A/B Testing", "Google Analytics", "Looker"],
+                "certifications": ["Google Data Analytics", "Microsoft Power BI", "Tableau Desktop Specialist"],
+                "projects": 3,
+                "experience_years": 2,
+                "dashboards": 5,
+                "reports": 10,
+                "blog_posts": 3
             }
         }
         
-        ideal = ideal_profile.get(target_role, ideal_profile["Software Engineer"])
+        ideal = ideal_profile.get(target_role, ideal_profile.get("Software Engineer", 
+                                                                  list(ideal_profile.values())[0]))
         
         # Calculate gaps
         current_skills = set(user_profile.get('skills', []))
