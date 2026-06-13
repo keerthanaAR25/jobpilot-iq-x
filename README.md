@@ -7,6 +7,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Hackathon](https://img.shields.io/badge/Hackathon-Microsoft%20Agents%20League-purple)
 
+
+
 ## 🎯 Hackathon Submission
 
 **🏆 Creative Apps Track | 🤖 Foundry IQ + GitHub Copilot | 🔍 Transparent AI**
@@ -33,9 +35,13 @@ pip install -r requirements.txt
 streamlit run app.py
 
 # Application opens at http://localhost:8501
-```
 
-**Deployed Demo**: [Live on Streamlit Cloud](https://jobpilot-iq-x-[username].streamlit.app)
+```
+## 🚀 Quick Start Videos
+
+https://drive.google.com/file/d/13m5iYl6COuUi_GpNMZEk6VNqaaK6BYLw/view?usp=sharing
+
+
 
 ## 📊 Project Overview
 
@@ -497,7 +503,19 @@ MIT License - See LICENSE file
 
 ## 🚀 Quick Start Videos
 
-[Coming Soon - Demo Videos]
+https://drive.google.com/file/d/13m5iYl6COuUi_GpNMZEk6VNqaaK6BYLw/view?usp=sharing
+
+<img width="1907" height="772" alt="image" src="https://github.com/user-attachments/assets/7a4c9fcb-8d8d-4f41-bd7e-9d37ded6779e" />
+<img width="1910" height="865" alt="image" src="https://github.com/user-attachments/assets/16a11ccf-4a73-44e3-81f7-52db40669390" />
+<img width="1918" height="871" alt="image" src="https://github.com/user-attachments/assets/e0d60798-704f-4039-93cd-2b1e876f0a2c" />
+<img width="1912" height="857" alt="image" src="https://github.com/user-attachments/assets/11cb966e-d2ae-4480-9085-89475928d8de" />
+<img width="1902" height="901" alt="image" src="https://github.com/user-attachments/assets/d1f47e80-a3db-494c-9d64-fbc98df84ac0" />
+<img width="1872" height="862" alt="image" src="https://github.com/user-attachments/assets/b2b741be-c983-4a31-b09c-0673409b9aa9" />
+<img width="1912" height="851" alt="image" src="https://github.com/user-attachments/assets/8f2142c0-8cee-4e49-942b-d909c4813a22" />
+<img width="1883" height="883" alt="image" src="https://github.com/user-attachments/assets/65ae4e59-377e-47e2-a054-aadb878addfc" />
+<img width="1912" height="880" alt="image" src="https://github.com/user-attachments/assets/bce4244d-7e21-476e-b8be-a2d957ea7e3d" />
+<img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/2e1a630d-bd1e-4cf9-91e3-9dfc387052d3" />
+<img width="1912" height="866" alt="image" src="https://github.com/user-attachments/assets/4d72c709-6481-484c-a3a8-ef8072326743" />
 
 ---
 
